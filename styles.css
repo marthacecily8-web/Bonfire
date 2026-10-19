@@ -1,0 +1,33 @@
+/* Contact Styles */
+.hero-contact{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+.left,.right{
+    background-color: orange;
+    padding: 40px;
+    width: 100%;
+    text-align: left;
+}
+.right form{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    padding: 40px;
+    gap: 15px;
+    font-size: large;
+}
+.right input,
+.right textarea{
+    font-size: 18px;
+}
+
